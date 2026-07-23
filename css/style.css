@@ -5,6 +5,13 @@
     color: white;
 }
 
+.logo-border img {
+    width: 9rem;
+    height: 7rem;
+    object-fit: cover;
+    display: block;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -68,10 +75,10 @@ nav ul li a.active-link::after {
 footer {
     width: 100%;
     min-height: 42vh;
-    background-image: url(../assets/img/background.jpg);
+    background-image: url(../images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     position: relative;
     display: flex;
 }
@@ -174,4 +181,20 @@ footer .comp {
     padding: 0;
     row-gap: 0.4rem;
     margin-top: 0.3rem;
+}
+
+
+.topImage{
+    width:100;
+    position:relative;
+    height:40vh;
+    background-image: url(../images/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
