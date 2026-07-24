@@ -14,38 +14,70 @@
             </a>
         </div>
         <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="events.html">Events</a>
-            </li>
-            <li>
-                <a href="projects-gallery.html">Projects</a>
-            </li>
-            <li>
-                <a href="about.html">About Us</a>
-            </li>
-            <li>
-                <a href="contact.html" class="active-link">Contact Us</a>
-            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="projects-gallery.html">Projects</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html" class="active-link">Contact Us</a></li>
         </ul>
         <ul>
-            <li>
-                <i class="fa-solid fa-user"></i>
-            </li>
+            <li><i class="fa-solid fa-user"></i></li>
         </ul>
     </nav>
+
     <main>
         <section class="topImage">
             <div class="overlay">
                 <h1>WANT TO GET IN CONTACT WITH US?</h1>
-                <h3>Reach out using our contact from or using our contact information.</h3>
+                <h3>Reach out using our contact form or using our contact information.</h3>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>
+                    We'd love to hear from you! Whether you're interested in
+                    volunteering, partnering with us, or learning more about our
+                    community programmes, our team is here to help.
+                </p>
+                <div class="info-box">
+                    <h3>📍 Address</h3>
+                    <p>324 Nowheres land, Kingston 6, Jamaica</p>
+                </div>
+                <div class="info-box">
+                    <h3>📞 Phone</h3>
+                    <p>+ 1-876-123-4567</p>
+                </div>
+                <div class="info-box">
+                    <h3>✉️ Email</h3>
+                    <p>jdca@jdca.com</p>
+                </div>
+                <div class="info-box">
+                    <h3>🕒 Office Hours</h3>
+                    <p>Monday - Friday</p>
+                    <p>8:30 AM - 4:30 PM</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form id="contactForm">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+                    <button type="submit">Send Message</button>
+                    <p id="formMessage"></p>
+                </form>
             </div>
         </section>
     </main>
-
-
 
     <footer>
         <div class="overlay">
