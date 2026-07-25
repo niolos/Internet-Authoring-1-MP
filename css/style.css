@@ -5,6 +5,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+
+
+
 section{
     color: rgb(255, 255, 255);
 }
@@ -83,11 +88,6 @@ section{
     background: #a93224;
 }
 
-@media (max-width: 800px) {
-    .contact-section {
-        flex-direction: column;
-    }
-}
 
 
 .logo-border img {
@@ -322,11 +322,7 @@ nav ul li a.active-link::after {
     line-height: 1.7;
 }
 
-@media (max-width: 800px) {
-    .team-container {
-        grid-template-columns: 1fr;
-    }
-}
+
 
 .vision-mission {
     display: flex;
@@ -463,6 +459,7 @@ nav ul li a.active-link::after {
     padding-left: 1.2rem;
     margin-bottom: 1.2rem;
 }
+
 
 footer {
     width: 100%;
@@ -859,27 +856,6 @@ background-color: rgb(0, 75, 0);
 .purple{
     color: purple;
 }
-@media (max-width: 650px) {
-    nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    .logo {
-        position: static;
-        display: block;
-        margin: 0 auto 10px auto;
-        width: 120px;
-    }
-
-    main {
-        width: 60%;
-    }
-}
 
 .projectsPage{
     display: flex;
@@ -899,6 +875,8 @@ background-color: rgb(0, 75, 0);
     width:100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 1rem;
     column-gap: 1rem;
     justify-content: center;
     align-items: center;
@@ -1006,3 +984,142 @@ background-color: rgb(0, 75, 0);
     -moz-box-shadow: 0px 10px 11px -1px rgba(0,0,0,0.75);
 
 }
+
+
+
+
+@media (max-width: 800px) {
+    .contact-section {
+        flex-direction: column;
+    }
+
+      .team-container {
+        grid-template-columns: 1fr;
+    }
+
+    .seconCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: baseline;
+    row-gap: 2rem;
+
+    }
+
+    main .contact{
+
+    flex-direction: column;
+    row-gap: 4rem;
+    }
+    
+    .formcon{
+    width:100%;
+    background-color: rgb(46, 46, 46);
+    padding:2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    border: 1px solid rgb(133, 133, 133);
+    }
+
+      .formcon{
+    width:100%;
+    background-color: rgb(46, 46, 46);
+    padding:2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    border: 1px solid rgb(133, 133, 133);
+    }
+    main .contact{
+        padding: 2rem 0;
+    }
+}
+
+
+@media (max-width: 650px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .logo {
+        position: static;
+        display: block;
+        margin: 0 auto 10px auto;
+        width: 120px;
+    }
+
+    main {
+        width: 100%;
+        
+    }  
+
+    .main{
+        flex-direction: column;
+        row-gap: 2rem;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+
+    .overlay{
+        row-gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .imageCollection{
+        padding:0;
+    }
+
+    .tabContent img{
+        width:17rem;
+    }
+
+    .tabContent p {
+    width: 100%;
+    text-align: center;
+    }
+
+    .value-container {
+    grid-template-columns: repeat(1, minmax(220px, 1fr));
+    }
+
+
+    .topImage .overlay h3 {
+        margin: 0;
+        font-size: 0.8rem;
+    }
+
+    .topImage .overlay h1 {
+        margin:0;
+        font-size: 1.2rem;
+    }
+
+    .formcon{
+        margin: 0;
+    }
+    main .contact {
+        padding:0;
+    }
+
+
+    .row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 2rem;
+}
+}
+
+
