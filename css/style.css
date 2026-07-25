@@ -86,6 +86,7 @@ footer {
     background-position: center;
     position: relative;
     display: flex;
+    color:white
 }
 
 footer::after {
