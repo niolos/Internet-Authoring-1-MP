@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
 
+}
+
+section{
+    color: rgb(255, 255, 255);
 }
 
 .logo-border img {
@@ -114,9 +117,8 @@ footer .overlay {
 }
 
 footer .comp img {
-    width: 5rem;
+    width: 9rem;
     height: 5rem;
-    border-radius: 50%;
     object-fit: cover;
     display: block;
 }
@@ -158,6 +160,7 @@ footer .comp {
 }
 
 .main {
+    color: rgb(255, 255, 255);
     position: relative;
     justify-content: space-evenly;
     align-items: start;
@@ -348,4 +351,124 @@ input, textarea{
 
 textarea{
     height:4rem;
+}
+
+
+.events{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    row-gap: 3rem;
+    background-color: rgb(46, 46, 46);
+}
+
+.events h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+.eventCon{
+    width:100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.eventCard{
+    width:20rem;
+    background-color: rgb(255, 254, 253);
+    height:25rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3rem;
+    box-shadow: 0px 10px 11px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 10px 11px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 11px -1px rgba(0,0,0,0.75);
+}
+
+.eventCard img{
+    border-radius: 3rem;
+    box-shadow: 0px 10px 11px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 10px 11px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 11px -1px rgba(0,0,0,0.75);
+}
+
+.cardInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex:1;
+    column-gap: 1rem;
+    padding:0 1rem;
+}
+
+.cardInfo h5{
+    color: rgb(109, 109, 109);
+}
+
+.cardInfo span{
+    height:60%;
+    width:2px;
+    
+}
+
+.blueline{
+     background-color: rgb(41, 95, 126);
+}
+
+.redline{
+    background-color: rgb(173, 0, 0);
+}
+
+
+.greenline{
+background-color: rgb(0, 75, 0);
+}
+
+.purpleline{
+    background-color: purple;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.date h4, .date h3{
+    font-size: 2rem;
+}
+
+.date h4{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fulldDeatails{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.6rem;
+    
+}
+
+.blue{
+    color:rgb(41, 95, 126) ;
+}
+
+.red{
+    color:rgb(173, 0, 0);
+}
+
+.green{
+    color: rgb(0, 75, 0);
+}
+
+.purple{
+    color: purple;
 }
