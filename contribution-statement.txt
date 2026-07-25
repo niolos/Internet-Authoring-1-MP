@@ -1,11 +1,12 @@
 For this project both Sharain Lowe & Nicolos Smith worked together to accomplish this task. The page listed indicates that the Javascript html and css was completed by said person.
 
-Below are the assigned task as well as who completyed the tasks:
+Below are the assigned task as well as who completed the tasks of development, planning testing and debugging
 
-Nicolos Smith:
+Nicolos Smith 20253891:
 - Contact Page
 - Events Page
 - Project-Gallery Page
+
 
 Sharain Lowe:
 - Index Page
