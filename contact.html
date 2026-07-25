@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/690c8ff645.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <title>Contact Us</title>
 </head>
 <body>
@@ -32,7 +34,7 @@
         </ul>
         <ul>
             <li>
-                <i class="fa-solid fa-user"></i>
+                <!-- <i class="fa-solid fa-user"></i> -->
             </li>
         </ul>
     </nav>
@@ -42,6 +44,74 @@
                 <h1>WANT TO GET IN CONTACT WITH US?</h1>
                 <h3>Reach out using our contact from or using our contact information.</h3>
             </div>
+        </section>
+        <section class="contact">
+            <div class="contactDetails">
+                <div class="heading">
+                    <h1>How can we help you today?</h1>
+                    <p>We are just one simple message away</p>
+                </div>
+
+                <div class="contactinfo">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="details">
+                        <p>Email:</p>
+                        <h4>jdca@jdca.com</h4>
+                    </div>
+                </div>
+                <div class="contactinfo">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="details">
+                        <p>Phone:</p>
+                        <h4>+1-876-999-9999</h4>
+                    </div>
+                </div>
+                <div class="contactinfo">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="details">
+                        <p>Location:</p>
+                        <h4>Nowheres Vile, Somewhere</h4>
+                    </div>
+                </div>
+            </div>
+            <form action="submit" id="form">
+                <div class="formcon" >
+                    <div class="row">
+                        <div class="namefield">
+                            <label for="firstName">First Name*</label>
+                            <input type="text" name="firstName" id="firstName" placeholder="e.g. Nicolos">
+                            <p id="firstNameError" class="error"></p>
+                        </div>
+                        <div class="namefield">
+                            <label for="lastName">Last Name*</label>
+                            <input type="text" name="lastName" id="lastName" placeholder="e.g. Smith">
+                            <p id="lastNameError" class="error"></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="fieldCon">
+                            <label for="email">Email*</label>
+                            <input type="email" name="email" id="email" placeholder="e.g. test@tester.com">
+                            <p id="emailError" class="error"></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="fieldCon">
+                            <label for="telephone">Telephoen Number*</label>
+                            <input type="tel" name="telephone" id="telephone" placeholder="e.g. 18761234567">
+                            <p id="telephoneError" class="error"></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="fieldCon">
+                            <label for="message">Message*</label>
+                            <textarea name="message" id="message"></textarea>
+                            <p id="messageError" class="error"></p>
+                        </div>
+                    </div>
+                    <input type="submit" id="subBtn">
+                </div>
+            </form>
         </section>
     </main>
 
@@ -93,6 +163,8 @@
                 <h5>Designed and Developed By: Nicolos Smith & Sharain Lowe</h5>
             </div>
         </div>
-    </footer> 
+    </footer>
+        <script src="./js/script.js"></script>
+ 
 </body>
 </html>

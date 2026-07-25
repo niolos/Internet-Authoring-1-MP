@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .logo-border img {
     width: 9rem;
-    height: 7rem;
+    height: 5rem;
     object-fit: cover;
     display: block;
 }
@@ -197,4 +199,153 @@ footer .comp {
     flex-direction: column;
     justify-content: center;
 
+}
+
+.topImage .overlay{
+    background-color: rgba(0, 0, 0, 0.234);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    width: 100%;
+}
+
+.topImage .overlay h1{
+    margin-left: 2rem;
+
+}
+
+.topImage .overlay h3{
+    margin-top: 1.3rem;
+    margin-left: 12rem;
+}
+
+
+main .contact{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width:100%;
+    align-items: center;
+    flex-direction: row;
+    min-height: 40vh;
+    padding:2rem;
+    background-color: rgba(0, 0, 0, 0.888);
+}
+
+main .contact h1{
+    color:black;
+    font-size: 3rem;
+}
+
+main .contact p{
+    color:black;
+}
+
+.contactDetails, form{
+    width:50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.formcon{
+    width:80%;
+    background-color: rgb(46, 46, 46);
+    padding:2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    border: 1px solid rgb(133, 133, 133);
+}
+
+.row{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    column-gap: 2rem;
+}
+
+.namefield, .fieldCon{
+    
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width:80%;
+    justify-content: space-between;
+}
+
+.fieldCon{
+    width:100%;
+}
+
+input{
+    height:2rem;
+}
+.error{
+    color:red;
+    font-size: 0.8rem;
+}
+
+input.invalid, textarea.invalid{
+   border: 2px solid red;
+}
+
+input.valid, textarea.valid {
+    border: 2px solid green;
+}
+
+.error{
+    color: red !important;
+}
+
+.contact .contactDetails h1, .contact .contactDetails p{
+    color: white;
+}
+
+.contact .contactDetails p{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.contactinfo{
+    display: flex;
+    position: relative;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.contactinfo .svg-inline--fa{
+    font-size: 2rem;
+    width:2rem;
+    height:2rem;
+}
+
+#subBtn{
+    background-color: black;
+    color:white;
+    outline:none;
+    border:2px solid white;
+    width:7rem;
+    height:2.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+
+#subBtn:hover{
+    background-color: rgb(33, 33, 33);
+}
+
+input, textarea{
+    color: rgb(49, 49, 49);
+}
+
+textarea{
+    height:4rem;
 }
